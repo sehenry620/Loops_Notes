@@ -44,19 +44,27 @@
         //     numbersArray
         // )
     
-        let results = document.querySelector("#results");
+        // let results = document.querySelector("#results");
 
-        // creating the incrementer
-        let i = 0
+        // // creating the incrementer
+        // let i = 100
 
-        // looping until condition is no longer true
-        while ( i <= 100){
-            results.innerHTML += i +"<br>";
+        // // looping until condition is no longer true
+        // while ( i > 0){
+        //     results.innerHTML += i + " " + "bottles of beer on the wall" + "<br>";
 
-            // incrementing the incrementer
-            i++
-        }
+        //     // incrementing/decrementing the incrementer
+        //     i--
+        // }
     
     // while loop and for loop act like the same thing
+
+        let i = 100
+    do {
+        console.log(i)
+
+        i--
+
+    } while (i > 0);
     
     })();
